@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Contact Us</title>
+		<link rel="stylesheet" href="stylesheets/style.css" />
+		<!-- Google Fonts -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Modak|Montserrat&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Font Awesome -->
+		<script
+			src="https://kit.fontawesome.com/65ac835d05.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="logo-section">
+					<a href="index.html"
+						><img class="logo" src="images/coffee-beans.png" alt="logo" />
+						Linden</a
+					>
+				</div>
+				<div class="toggle"><i class="fas fa-bars menu"></i></div>
+				<ul>
+					<li><a href="ourshop.html">Our Coffee Shop</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a class="current" href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section id="contact">
+				<h3 class="container">Contact Us</h3>
+				<div class="container">
+					<div class="contact-text flex">
+						<img src="https://source.unsplash.com/300x200/?cafe" alt="" />
+						<p>
+							<i class="fas fa-map-marker-alt"></i>Address: Kahvikatu 1, 00000
+							Helsinki <br />
+							<i class="fas fa-phone-alt"></i>Phone: 09-123 456 789<br />
+							<i class="fas fa-envelope"></i>Email: info@linden.com<br />
+						</p>
+					</div>
+					<form class="contactform" action="" method="post">
+						<fieldset>
+							<legend>Leave us a message!</legend>
+							<br />
+							<label for="name">Your name:</label><br />
+							<input
+								type="text"
+								name="name"
+								placeholder="e.g. John Doe"
+								required
+							/>
+							<br />
+							<label for="_replyto">Your email:</label><br />
+							<input
+								type="text"
+								name="_replyto"
+								placeholder="e.g. john@mail.com"
+							/>
+							<br />
+							<label for="message">Your message:</label><br />
+							<textarea name="message" required rows="10"></textarea> <br />
+							<button type="submit" name="button">
+								<i class="fas fa-paper-plane"></i> Send
+							</button>
+						</fieldset>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="some">
+				<a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+				<a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+				<a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+			</div>
+			<div class="copyright">
+				<p>&copy; 2019 Linden Coffee Shop & Roastery</p>
+			</div>
+		</footer>
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.js"
+			integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+			crossorigin="anonymous"
+		></script>
+		<script src="index.js"></script>
+	</body>
+</html>
