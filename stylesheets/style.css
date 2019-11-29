@@ -25,7 +25,6 @@ body {
 .wrapper {
 	display: grid;
 	position: relative;
-	/* grid-gap: 4rem; */
 }
 
 .container {
@@ -104,7 +103,6 @@ nav {
 	background-color: var(--coffee);
 	position: fixed;
 	z-index: 3;
-	/* padding: 0 20px; */
 }
 
 nav a {
@@ -197,7 +195,6 @@ nav ul li a:hover,
 		display: block;
 	}
 }
-
 /* Hamburger navigation ends */
 
 /****************** 1. Landing Page **********************/
@@ -304,8 +301,11 @@ nav ul li a:hover,
 	background-size: cover;
 }
 
+.openhrs {
+	margin-right: 50px;
+}
 td {
-	min-width: 200px;
+	padding: 0 5px;
 }
 
 iframe {
